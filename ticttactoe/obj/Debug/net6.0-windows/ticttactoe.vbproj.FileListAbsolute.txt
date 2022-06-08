@@ -1,0 +1,17 @@
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\bin\Debug\net6.0-windows\ticttactoe.exe
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\bin\Debug\net6.0-windows\ticttactoe.deps.json
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\bin\Debug\net6.0-windows\ticttactoe.runtimeconfig.json
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\bin\Debug\net6.0-windows\ticttactoe.dll
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\bin\Debug\net6.0-windows\ticttactoe.pdb
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.vbproj.AssemblyReference.cache
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.Form1.resources
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.vbproj.GenerateResource.cache
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.AssemblyInfoInputs.cache
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.AssemblyInfo.vb
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.vbproj.CoreCompileInputs.cache
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.dll
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\refint\ticttactoe.dll
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.pdb
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ticttactoe.genruntimeconfig.cache
+C:\Users\Ellaine\source\repos\ticttactoe\ticttactoe\obj\Debug\net6.0-windows\ref\ticttactoe.dll
