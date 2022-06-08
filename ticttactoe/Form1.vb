@@ -44,6 +44,31 @@
         End If
         b1.Enabled = False
 
+        Dim kjh As String = "X"
+        If b1.Text = kjh And b2.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b1.Text = kjh And b5.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b1.Text = kjh And b4.Text And b7.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+        kjh = "O"
+        If b1.Text = kjh And b2.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b1.Text = kjh And b5.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b1.Text = kjh And b4.Text And b7.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+
 
     End Sub
 
@@ -62,6 +87,26 @@
             cnt = cnt + 1
         End If
         b2.Enabled = False
+
+        Dim kjh As String = "X"
+        If b2.Text = kjh And b1.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b2.Text = kjh And b5.Text = kjh And b8.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
+
+        kjh = "O"
+        If b2.Text = kjh And b1.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b2.Text = kjh And b5.Text = kjh And b8.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
     End Sub
 
     Private Sub b3_Click(sender As Object, e As EventArgs) Handles b3.Click
@@ -80,6 +125,29 @@
         End If
         b3.Enabled = False
 
+        Dim kjh As String = "X"
+        If b3.Text = kjh And b2.Text = kjh And b1.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b3.Text = kjh And b5.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b3.Text = kjh And b6.Text And b9.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+        kjh = "O"
+        If b3.Text = kjh And b2.Text = kjh And b1.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b3.Text = kjh And b5.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b3.Text = kjh And b6.Text And b9.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
 
     End Sub
 
@@ -99,7 +167,25 @@
         End If
         b4.Enabled = False
 
+        Dim kjh As String = "X"
+        If b4.Text = kjh And b1.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b4.Text = kjh And b5.Text = kjh And b6.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
 
+        End If
+
+        kjh = "O"
+        If b4.Text = kjh And b1.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b4.Text = kjh And b5.Text = kjh And b6.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
     End Sub
 
     Private Sub b5_Click(sender As Object, e As EventArgs) Handles b5.Click
@@ -118,6 +204,35 @@
         End If
         b5.Enabled = False
 
+        Dim kjh As String = "X"
+        If b5.Text = kjh And b1.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b3.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b2.Text = kjh And b8.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b6.Text And b4.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+        kjh = "O"
+        If b5.Text = kjh And b1.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b3.Text = kjh And b7.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b2.Text = kjh And b8.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b5.Text = kjh And b6.Text And b4.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
 
     End Sub
 
@@ -137,6 +252,25 @@
         End If
         b6.Enabled = False
 
+        Dim kjh As String = "X"
+        If b6.Text = kjh And b3.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b6.Text = kjh And b5.Text = kjh And b4.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
+
+        kjh = "O"
+        If b6.Text = kjh And b3.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b6.Text = kjh And b5.Text = kjh And b4.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
 
     End Sub
 
@@ -155,6 +289,30 @@
             cnt = cnt + 1
         End If
         b7.Enabled = False
+
+        Dim kjh As String = "X"
+        If b7.Text = kjh And b1.Text = kjh And b4.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b7.Text = kjh And b5.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b7.Text = kjh And b8.Text And b9.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+        kjh = "O"
+        If b7.Text = kjh And b1.Text = kjh And b4.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b7.Text = kjh And b5.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b7.Text = kjh And b8.Text And b9.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
     End Sub
 
     Private Sub b8_Click(sender As Object, e As EventArgs) Handles b8.Click
@@ -172,6 +330,25 @@
             cnt = cnt + 1
         End If
         b8.Enabled = False
+
+        Dim kjh As String = "X"
+        If b8.Text = kjh And b2.Text = kjh And b5.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b8.Text = kjh And b7.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
+        End If
+
+        kjh = "O"
+        If b8.Text = kjh And b2.Text = kjh And b5.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b8.Text = kjh And b7.Text = kjh And b9.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+
     End Sub
 
     Private Sub b9_Click(sender As Object, e As EventArgs) Handles b9.Click
@@ -189,5 +366,29 @@
             cnt = cnt + 1
         End If
         b9.Enabled = False
+
+        Dim kjh As String = "X"
+        If b9.Text = kjh And b1.Text = kjh And b5.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b9.Text = kjh And b6.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b9.Text = kjh And b8.Text And b7.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
+
+        kjh = "O"
+        If b9.Text = kjh And b1.Text = kjh And b5.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b9.Text = kjh And b6.Text = kjh And b3.Text = kjh Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        ElseIf b9.Text = kjh And b8.Text And b7.Text Then
+            MessageBox.Show("Player " + kjh + " won")
+            breset.PerformClick()
+        End If
     End Sub
 End Class
