@@ -348,7 +348,7 @@
         ElseIf b8.Text = kjh And b7.Text = kjh And b9.Text = kjh Then
             MessageBox.Show("Player " + kjh + " won")
             breset.PerformClick()
-
+        End If
     End Sub
 
     Private Sub b9_Click(sender As Object, e As EventArgs) Handles b9.Click
